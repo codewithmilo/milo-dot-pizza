@@ -1,7 +1,16 @@
+html {
+    margin: 0;
+    height: 100%;
+}
 body {
     background-image: url('./images/gradient.png');
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    height: 100%;
 }
 #welcome {
     display: block;
@@ -43,7 +52,7 @@ body {
     margin-right: 44%;
     margin-top: 2%;
     box-sizing: border-box;
-    border: solid 10px#959595;
+    border: solid 5px#959595;
     background-color: #c3c3c3;
     border-top-color: white;
     border-left-color: white;
@@ -55,4 +64,6 @@ body {
     border-left-color: #959595;
     border-bottom-color: white;
     border-right-color: white;
+    padding-top: 1px;
+    padding-left: 1px;
 }

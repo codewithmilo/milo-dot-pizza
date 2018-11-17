@@ -43,7 +43,7 @@ window.onload = (function() {
     }
     /* this one we never hide, so no interval to keep it displaying */
     function showEnter(){
-        document.getElementById('enter').style.display = 'block';
+        document.getElementById('enter').style.display = 'inline-block';
     }
 
     var $welcome = document.getElementById('welcome');
