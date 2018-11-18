@@ -19,10 +19,6 @@ window.onload = (function() {
     const full_view_wait_ms = 2000;
     const full_loop_ms = 6000;
 
-    setInterval(function(){
-        console.log('.');
-    }, 1000);
-
     /*
      * for images, we call each of these once per section of the
      * header, and then kick off an interval to keep it running
@@ -45,6 +41,19 @@ window.onload = (function() {
     function showEnter(){
         document.getElementById('enter').style.display = 'inline-block';
     }
+    function showFireworks(){
+        var $f1 = document.getElementById('f1');
+        var $f2 = document.getElementById('f2');
+        var $f3 = document.getElementById('f3');
+
+        $f1.style.visibility = 'visible';
+        window.setTimeout(function(){
+            $f2.style.visibility = 'visible';
+        }, interval_ms);
+        window.setTimeout(function(){
+            $f3.style.visibility = 'visible';
+        }, interval_ms*2);
+    }
 
     var $welcome = document.getElementById('welcome');
     var $internet = document.getElementById('internet');
@@ -63,6 +72,10 @@ window.onload = (function() {
     window.setTimeout(function(){
         showImage($milo);
     }, time);
+
+    window.setTimeout(function(){
+        showFireworks();
+    }, time+(interval_ms/2));
 
     time += interval_ms;
     window.setTimeout(showEnter, time);
