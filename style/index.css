@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 body {
-    background-image: url('./images/gradient.png');
+    background-image: url('/images/gradient.png');
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
