@@ -4,7 +4,7 @@
 
 - [Cameron's World](https://www.cameronsworld.net/)
 - [Word Art Generator](https://makewordart.com/)
-- [Home color palette](https://www.pinterest.it/pin/357121445439016927/)
+- [Color palette](https://www.pinterest.it/pin/357121445439016927/)
 
 
 ### Annoyances
