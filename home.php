@@ -9,8 +9,9 @@
 <body>
 
 <table>
-    <thead><td>MILO</td><td>DOT</td><td>PIZZA</td></thead>
-    <tr><td>hey</td></tr>
+    <thead id="title"><td>MILO</td><td>DOT</td><td>PIZZA</td><td style="width: 100%"></td></thead>
+    <tr><td colspan="4">Hey, I'm Milo! I like trees, big cats, and the sun. I hope you enjoy my site, which is "Not Secure."</td></tr>
+    <tr><td colspan="4"></td></tr>
 </table>
 
 </body>

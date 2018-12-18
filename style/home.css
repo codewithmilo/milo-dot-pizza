@@ -12,16 +12,22 @@ body {
 table {
     margin: 6% 0 0 6%;
 }
-thead td {
+#title td {
     color: #E9EDEF;
     font-family: 'Neoneon';
     font-size: 80pt;
     cursor: default;
-    padding: 0 40px 0 0;
+    padding: 0 40px 40px 0;
     /* glow effect from http://enjoycss.com/gallery/text_effects/39 */
     text-shadow: 0 0 10px #E9EDEF , 0 0 20px #E9EDEF , 0 0 30px #E9EDEF , 0 0 40px #AC10A8 , 0 0 70px #C210A1 , 0 0 80px #C210A1 , 0 0 100px #AC10A8 ;
     -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+tr td {
+    color: white;
+    font-size: 18pt;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 10px 0 0 0;
 }
