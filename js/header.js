@@ -3,7 +3,8 @@ document.write('\
 <html>\
 	<head>\
 		<title>milo.pizza</title>\
-		<meta charset=UTF-8>\
+        <meta charset=UTF-8>\
+        <link rel="stylesheet" type="text/css" href="/style/header.css" />\
 	</head>\
 <body>\
 <!-- The header creates an open table element, so we just add more rows and close it here -->\

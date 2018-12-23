@@ -34,7 +34,7 @@ fi
 filename=$(basename "$1")
 extension="${filename##*.}"
 filename="${filename%.*}"
-targetFile="${filename}.js"
+targetFile="js/${filename}.js"
 
 echo "document.write('\\" > $targetFile
 sed 's/\\/\\\\/g;s/^.*$/&\\/g;s/'\''/\\'\''/g' $1 >> $targetFile
