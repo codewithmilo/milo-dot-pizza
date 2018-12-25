@@ -1,0 +1,20 @@
+#content {
+    margin: 4.5% 0 0 27%;
+}
+#content td {
+    color: white;
+    font-size: 18pt;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    line-height: 2;
+    overflow: hidden;
+}
+#content img {
+    margin-top: 10%;
+    animation: drive 5s linear infinite;
+    width: 150px;
+    height: auto;
+}
+@keyframes drive {
+    0%   { transform: translate(-120%, 0); }
+    100% { transform: translate(800%, 0); }
+}

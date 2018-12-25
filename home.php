@@ -5,8 +5,9 @@
 		<script src="/js/header.js"></script>
 	</head>
 <body>
-<!-- The header creates an open table element, so we just add more rows and close it here -->
+<table id="content">
+	<tr><td>Hi, I'm Milo. Welcome to my website!<br/>Please enjoy fun stuff I've made, cool links I've found, and<br/>interesting writing I've done.<br/>Thank you!</td></tr>
+	<tr><td><img src="/images/car-still.png" /></td></tr>
 </table>
-
 </body>
 </html>
