@@ -1,9 +1,20 @@
 window.onload = (function(){
     /*
+     * First thing: set the menu item of the currently
+     * selected location to display itself
+     */
+    var nameid = window.location.pathname.replace('/', '');
+    var $selected = document.getElementById(nameid);
+    if (nameid != 'home'){
+        $selected.style.color = '#FF00FF';
+        $selected.style.textDecoration = '#FF00FF underline wavy';
+    }
+
+    /*
      * Here we set up an interval to flip the title
      * colors every 3.5 seconds. Nice!
      */
-    var count = 1;
+    var count = 0;
     var firstColor = '0 0 10px #E9EDEF , 0 0 20px #E9EDEF , 0 0 30px #E9EDEF , 0 0 40px #FB3164 , 0 0 70px #E1008A , 0 0 80px #E1008A , 0 0 100px #FB3164';
     var secondColor = '0 0 10px #E9EDEF , 0 0 20px #E9EDEF , 0 0 30px #E9EDEF , 0 0 40px #31A7D7 , 0 0 70px #31A7D7 , 0 0 80px #31A7D7 , 0 0 100px #31A7D7';
     var $tds = document.querySelectorAll('#title > td');
@@ -72,4 +83,21 @@ window.onload = (function(){
             }, 1000);
         }
     });
+
+    // Also handle a similar animation when the home item is clicked
+    var $home = document.getElementById('home');
+    $home.onclick = function(e){
+        e.preventDefault();
+        var $td = e.target.closest('td');
+        console.log($td);
+        $td.style.backgroundImage = "url('/images/fireball.gif')";
+        $td.style.backgroundSize = 'auto 100%';
+        $td.style.backgroundPosition = 'left center';
+        $td.style.backgroundRepeat = 'no-repeat';
+        $td.childNodes[0].style.visibility = 'hidden';
+
+        setTimeout(function(){
+            window.location.href = '/home';
+        }, 1190);
+    };
 });

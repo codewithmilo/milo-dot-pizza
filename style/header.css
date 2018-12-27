@@ -28,6 +28,10 @@ body {
 #title {
     margin-left: 150px;
 }
+#home {
+    text-decoration: none;
+    color: white;
+}
 #nav {
     float: left;
 }
