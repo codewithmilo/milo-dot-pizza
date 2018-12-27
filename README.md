@@ -22,4 +22,5 @@ For reasons described [here](https://stackoverflow.com/questions/36362484/heroku
 The one catch is that killing the process won't actually close the connection, you may see `ERROR: An another FPM instance seems to already listen on /tmp/heroku.fcgi.5000.sock`. Running `killall php-fpm` clears it up. I just set up an alias to make it easier: `alias php-local='killall php-fpm && heroku local`. Yippeee!!
 
 **Templates without templates**
+
 In the desire to build this website without any frameworks or libraries, I dated myself and realized I didn't even know how to (google search) "include an html file in another html file." The answer is that you put it in a javascript file and `document.write()` the whole string of HTML. Because there are minor escaping caveats one must follow for this approach, and because writing HTML in a responsive text editor is very nice, I used someone's trick with the included `escapeHTML.sh` to just write an HTML file to a javascript file that does everything I want. Thanks, Martin Wermers!!
