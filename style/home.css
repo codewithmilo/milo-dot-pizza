@@ -17,3 +17,11 @@
     0%   { transform: translate(-120%, 0); }
     100% { transform: translate(800%, 0); }
 }
+#counter {
+    width: 50%;
+    margin: 3% auto;
+}
+#counter img {
+    display: block;
+    margin: auto;
+}
