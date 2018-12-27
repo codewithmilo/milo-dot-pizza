@@ -16,6 +16,6 @@ document.write('\
     <tr class="menu"><td><img class="select" src="/images/lifeforce-ship-still.gif" /></td><td class="menu-item"><a id="about" href="about"><b>About</b></a></td></tr>\
     <tr class="menu"><td><img class="select" src="/images/lifeforce-ship-still.gif" /></td><td class="menu-item"><a id="stuff" href="stuff"><b>Stuff</b></a></td></tr>\
     <tr class="menu"><td><img class="select" src="/images/lifeforce-ship-still.gif" /></td><td class="menu-item"><a id="links" href="links"><b>Links</b></a></td></tr>\
-    <tr class="menu"><td><img class="select" src="/images/lifeforce-ship-still.gif" /></td><td class="menu-item"><a id="blog" href="blog"><b>Blog</b></a></td></tr>\
+    <tr class="menu"><td><img class="select" src="/images/lifeforce-ship-still.gif" /></td><td class="menu-item"><a id="blog" href="http://album-reviews.herokuapp.com"><b>Blog</b></a></td></tr>\
 </table>\
 ');
