@@ -29,18 +29,20 @@ body {
     margin-left: 150px;
 }
 #nav {
-    margin-left: 12%;
     float: left;
 }
+.select {
+    width: 160px;
+    height: 100px;
+    padding-top: 5px;
+    visibility: hidden;
+}
 .menu > td {
-    padding: 65px 0 0 0;
+    padding-top: 10px;
 }
 .menu > td > a {
     color: white;
     font-size: 22pt;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-decoration: none;
-}
-.menu > td > a:hover {
-    text-decoration: underline;
 }
