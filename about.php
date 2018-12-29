@@ -2,15 +2,24 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="/style/about.css" />
+		<link rel="stylesheet" type="text/css" href="/style/base.css" />
 		<script src="/js/header.js"></script>
+		<style>
+			#me {
+				border-radius: 50%;
+				width: 300px;
+			}
+			#top {
+				padding-left: 13%;
+			}
+		</style>
 	</head>
 <body>
 	<table id="content">
 		<tr><td><img id="me" src="/images/me.png" /></td></tr>
 		<tr><td id="top">👆 That's me!</td></tr>
 		<tr><td>I like trees, big cats, and the Sun! I also like building things on the internet.<br/>
-				It's proudly jQuery and framework free, non-responsive, and "Not Secure"<br/><br/>
+				This website is a little slice of the Internet I grew up with. I hope you enjoy its old school vibes! It is proudly jQuery & framework free, non-responsive and "Not Secure"<br/><br/>
 				I am currently on the  
 				<a href="https://twitter.com/positivitytour"><?php
 					$text = "POSITIVITY TOUR";
@@ -21,8 +30,7 @@
 						$color = $colors[$i % count($colors)];
 						echo "<span style=\"color:{$color}\">{$letter}</span>";
 					}
-				?></a> and encourage you to join.<br/>
-				<a href='contact.php'><b>Contact Me</b></a>
+				?></a> and encourage you to join!<br/>
 		</td></tr>
 	</table>
 </body>

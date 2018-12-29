@@ -1,0 +1,15 @@
+#content td {
+    padding-left: 18%;
+    text-decoration: none;
+    line-height: 1.5;
+}
+#content a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+#content a:hover { text-decoration: underline; }
+h3 { 
+    color: #EC855B;
+    line-height: 1;
+}
