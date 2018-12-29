@@ -1,0 +1,16 @@
+#content {
+    margin: 4% 0 0 27%;
+    width: 50%;
+}
+#content td {
+    color: white;
+    font-size: 16pt;
+    line-height: 2;
+}
+#me {
+    border-radius: 50%;
+    width: 300px;
+}
+#top {
+    padding-left: 13%;
+}
