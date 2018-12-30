@@ -34,7 +34,7 @@ document.write('\
         </tr>\
         <tr class="menu">\
             <td><img class="select" src="/images/lifeforce-ship-still.gif" /></td>\
-            <td class="menu-item"><a id="blog" href="http://album-reviews.herokuapp.com"><b>Blog</b></a></td>\
+            <td class="menu-item"><a id="blog" href="not-ready-yet"><b>Blog</b></a></td>\
         </tr>\
     </table>\
 ');
