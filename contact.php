@@ -17,12 +17,17 @@ if ($form_submitted) {
 	$msg = $_POST['msg'] ? : null;
 	if ($msg == null) return;
 
-	$text = "{$person} wanted to say to you:\n> {$msg}";
+	$text = "*{$person}* wanted to say to you:\n> {$msg}";
 	if ($return != null) {
-		$text .= "\nRespond to them at: {$return}";
+		$text .= "\nRespond to them at: *{$return}*";
 	}
-	$channel_id = "CSOMETHIGN";
-	$args = ['text' => $text, 'channel' => $channel_id];
+	$channel_id = getenv('SLACK_CHANNEL_ID');
+	$args = [
+		'text' => $text,
+		'channel' => $channel_id,
+		'icon_emoji' => ':pizza:',
+		'username' => 'Milo Dot Pizza',
+	];
 	$slack->call('chat.postMessage', $args);
 }
 ?>
