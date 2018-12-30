@@ -3,8 +3,8 @@ document.write('\
 <html>\
 	<head>\
 		<title>milo.pizza</title>\
-        <meta charset=UTF-8>\
         <link rel="stylesheet" type="text/css" href="/style/header.css" />\
+        <link rel="stylesheet" type="text/css" href="/style/base.css" />\
         <script type="text/javascript" src="/js/header-animate.js"></script>\
 	</head>\
 <body>\

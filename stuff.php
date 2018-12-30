@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="/style/base.css" />
 		<link rel="stylesheet" type="text/css" href="/style/stuff.css" />
 		<script src="/js/header.js"></script>
 	</head>

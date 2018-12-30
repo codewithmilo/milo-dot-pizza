@@ -1,4 +1,3 @@
-
 window.onload = (function() {
     /*
      * with these values:

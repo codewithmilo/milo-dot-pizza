@@ -1,4 +1,4 @@
-window.onload = (function(){
+window.addEventListener('load', function(){
     /*
      * First thing: set the menu item of the currently
      * selected location to display itself
