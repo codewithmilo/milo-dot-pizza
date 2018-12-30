@@ -1,6 +1,30 @@
 <?php
 $form_submitted = isset($_POST['submit']);
-if ($form_submitted) send_to_slack();
+if ($form_submitted) {
+	#
+	# Send the filled-out form as a message into slack.
+	# Nobody will ever use this, so don't bother validating
+	# or handling errors ¯\_(ツ)_/¯
+	#
+
+	require('slack.php');
+
+	$token = getenv('SLACK_API_TOKEN');
+	$slack = new Slack($token);
+
+	$person = $_POST['name'] ? : 'Someone';
+	$return = $_POST['return'] ? : null;
+	$msg = $_POST['msg'] ? : null;
+	if ($msg == null) return;
+
+	$text = "{$person} wanted to say to you:\n> {$msg}";
+	if ($return != null) {
+		$text .= "\nRespond to them at: {$return}";
+	}
+	$channel_id = "CSOMETHIGN";
+	$args = ['text' => $text, 'channel' => $channel_id];
+	$slack->call('chat.postMessage', $args);
+}
 ?>
 
 <!DOCTYPE html>
@@ -27,10 +51,3 @@ if ($form_submitted) send_to_slack();
 	</form>
 </body>
 </html>
-
-<?php
-function send_to_slack()
-{
-	return;
-}
-?>
