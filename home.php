@@ -11,9 +11,9 @@
 </table>
 <div id="counter">
 	<?php
-		$url = "//counter.websiteout.net/compte.php?S=".urlencode($_SERVER['HTTP_HOST'])."&C=2&D=0&N=0&M=0";
-		echo "<img src=$url alt='' border='0' />";
-	?>
+$url = "//counter.websiteout.net/compte.php?S=" . urlencode($_SERVER['HTTP_HOST']) . "&C=2&D=0&N=0&M=0";
+echo "<img src=$url alt='' border='0' />";
+?>
 </div>
 </body>
 </html>

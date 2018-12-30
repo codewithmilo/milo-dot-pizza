@@ -1,6 +1,6 @@
 <?php
-	$form_submitted = isset($_POST['submit']);
-	if ($form_submitted) send_to_slack();
+$form_submitted = isset($_POST['submit']);
+if ($form_submitted) send_to_slack();
 ?>
 
 <!DOCTYPE html>
@@ -17,19 +17,20 @@
 	<table id="content">
 		<tr id="switch"><td id="find-me">Find me at: </td><td class="icon"><img src="/images/tweet.png" /></td><td class="name"><div>tweets</div></td><td>withmilo</td></tr>
 		<?php
-			if ($form_submitted){
-				echo "<script src=\"/js/contact_thanks.js\"></script>";
-			}else{
-				echo "<script src=\"/js/contact_form.js\"></script>";
-			}
-		?>
+	if ($form_submitted) {
+		echo "<script src=\"/js/contact_thanks.js\"></script>";
+	} else {
+		echo "<script src=\"/js/contact_form.js\"></script>";
+	}
+	?>
 	</table>
 	</form>
 </body>
 </html>
 
 <?php
-	function send_to_slack() {
-		return;
-	}
+function send_to_slack()
+{
+	return;
+}
 ?>

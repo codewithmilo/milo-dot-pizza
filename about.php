@@ -20,16 +20,17 @@
 		<tr><td>I like trees, big cats, and the Sun! I also like building things on the internet.<br/>
 				This website is a little slice of the Internet I grew up with. I hope you enjoy its old school vibes! It is proudly jQuery & framework free, non-responsive and "Not Secure"<br/><br/>
 				I am currently on the  
-				<a href="https://twitter.com/positivitytour"><?php
-					$text = "POSITIVITY TOUR";
-					$colors = ["#ff217c", "#0cffe1", "#ffd486","#fe5e78","#25b6c3"];
+				<a href="https://twitter.com/positivitytour">
+				<?php
+			$text = "POSITIVITY TOUR";
+			$colors = ["#ff217c", "#0cffe1", "#ffd486", "#fe5e78", "#25b6c3"];
 					# rainbow text, yay!!!
-					for ($i=0;$i<strlen($text);$i++){
-						$letter = $text[$i];
-						$color = $colors[$i % count($colors)];
-						echo "<span style=\"color:{$color}\">{$letter}</span>";
-					}
-				?></a> and encourage you to join!<br/>
+			for ($i = 0; $i < strlen($text); $i++) {
+				$letter = $text[$i];
+				$color = $colors[$i % count($colors)];
+				echo "<span style=\"color:{$color}\">{$letter}</span>";
+			}
+			?></a> and encourage you to join!<br/>
 		</td></tr>
 	</table>
 </body>
