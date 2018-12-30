@@ -14,6 +14,8 @@ I find that in most projects, some things take longer than they should, because 
 
 For reasons described [here](https://stackoverflow.com/questions/36362484/heroku-php-getting-started-doesn-t-run-locally-on-osx/36449401#36449401), running PHP applications locally with `heroku local` doesn't work out-the-box. You can just run a local PHP server: `php -S localhost:8080`, but if your application uses `.htaccess` that won't support it. With help from the Stack Overflow explanation above, I figured a workaround (for MacOSX):
 
+_Important Note: PHP7 is not working properly with this approach. If you need PHP7 you'll need to do some more work (and please let me know if you do!) I didn't have the patience to look into it :(_
+
 1. Make sure apache2 is installed: `brew install apache2`
 2. Find the configuration file, for me it was `/usr/local/etc/httpd/httpd.conf`
 3. Uncomment a few lines: `proxy_module`, `proxy_fcgi_module` and `rewrite_module`; comment the `Listen` directive
