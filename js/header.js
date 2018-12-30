@@ -13,7 +13,7 @@ document.write('\
 \
     <table id="header">\
         <tr id="title">\
-            <td><a id=\'home\' href=\'z/home\'>MILO</a></td>\
+            <td><a id=\'home\' href=\'home\'>MILO</a></td>\
             <td>DOT</td>\
             <td>PIZZA</td>\
             <td style="width: 100%"></td>\
@@ -22,15 +22,15 @@ document.write('\
     <table id="nav">\
         <tr class="menu">\
             <td><img class="select" src="/images/lifeforce-ship-still.gif" /></td>\
-            <td class="menu-item"><a id="about" href="zabout"><b>About</b></a></td>\
+            <td class="menu-item"><a id="about" href="about"><b>About</b></a></td>\
         </tr>\
         <tr class="menu">\
             <td><img class="select" src="/images/lifeforce-ship-still.gif" /></td>\
-            <td class="menu-item"><a id="stuff" href="zstuff"><b>Stuff</b></a></td>\
+            <td class="menu-item"><a id="stuff" href="stuff"><b>Stuff</b></a></td>\
         </tr>\
         <tr class="menu">\
             <td><img class="select" src="/images/lifeforce-ship-still.gif" /></td>\
-            <td class="menu-item"><a id="contact" href="zcontact"><b>Contact</b></a></td>\
+            <td class="menu-item"><a id="contact" href="contact"><b>Contact</b></a></td>\
         </tr>\
         <tr class="menu">\
             <td><img class="select" src="/images/lifeforce-ship-still.gif" /></td>\
