@@ -1,0 +1,69 @@
+#content {
+    width: auto;
+    margin: 5% 0 0 35%;
+}
+#find-me { width: 150px; }
+#switch td { font-size: 24pt; }
+.name {
+    text-align: right;
+    overflow: hidden;
+    width: 90px;
+}
+.name div { animation: txt-spin 4s linear infinite; }
+.icon {
+    text-align: right;
+    border: 2px;
+    overflow: hidden;
+    width: 45px;
+}
+.icon img {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+    animation: img-spin 4s linear infinite;
+}
+@keyframes img-spin {
+    0%   { transform: translateY(-200%); }
+    25%  { transform: translateY(-20%); }
+    75%  { transform: translateY(-20%); }
+    100% { transform: translateY(200%); }
+}
+@keyframes txt-spin {
+    0%   { transform: translateY(-100%); }
+    25%  { transform: translateY(0%); }
+    75%  { transform: translateY(0%); }
+    100% { transform: translateY(100%); }
+}
+#contact-label { padding: 30px 0 30px 0; }
+label { color: #EC855B; }
+input[type="text"] { font-size: 14pt; }
+input[type="submit"] {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bolder;
+    font-size: 14pt;
+    color: black;
+    border: solid 5px#959595;
+    background-color: #c3c3c3;
+    border-top-color: white;
+    border-left-color: white;
+    width: 100px;
+    height: 40px;
+}
+input[type="submit"]:active {
+    border-top-color: #959595;
+    border-left-color: #959595;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+textarea {
+    height: 100px;
+    width: 208px;
+    vertical-align: top;
+}
+#submit-td {
+    text-align: center;
+    padding-top: 40px;
+}
+#msg-td { padding-top: 8px; }
+#thank-you { padding-top: 100px; }
+#thank-you i, #thank-you b {color: #EC855B; }

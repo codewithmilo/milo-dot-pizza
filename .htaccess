@@ -6,5 +6,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^home$ /home.php
 RewriteRule ^about$ /about.php
 RewriteRule ^stuff$ /stuff.php
-RewriteRule ^links$ /links.php
-RewriteRule ^blog$ /blog.php
+RewriteRule ^contact$ /contact.php
