@@ -59,6 +59,7 @@ textarea {
     height: 100px;
     width: 208px;
     vertical-align: top;
+    font-size: 14pt;
 }
 #submit-td {
     text-align: center;
