@@ -1,3 +1,5 @@
 document.write('\
-<tr><td colspan="4" id="thank-you"><i>Thank you for reaching out!</i> ✌️<b>&</b> ❤️</td></tr>\
+<tr>\
+    <td colspan="4" id="thank-you"><i>Thank you for reaching out!</i> ✌️<b>&</b> ❤️</td>\
+</tr>\
 ');
