@@ -9,7 +9,7 @@ window.onload = (function () {
 
         // midnight!!!
         console.log(h, m, s);
-        if (h == 1 && m == 30 && s == 0) {
+        if (h == 0 && m == 0 && s == 0) {
             showFireworks();
             $clock.style.fontSize = '80pt';
             $clock.textContent = "HAPPY NEW YEAR!!"
