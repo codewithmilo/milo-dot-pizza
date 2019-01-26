@@ -38,7 +38,7 @@
 label { color: #EC855B; }
 input[type="text"] { font-size: 14pt; }
 input[type="submit"] {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
     font-weight: bolder;
     font-size: 14pt;
     color: black;

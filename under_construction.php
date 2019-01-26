@@ -16,7 +16,7 @@
             p {
                 text-align: center;
                 font-size: 24pt;
-                font-family: "Comic Sans MS", "Comic Sans", cursive;
+                font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
             }
             p a {
                 color: black;

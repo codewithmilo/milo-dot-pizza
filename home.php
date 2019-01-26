@@ -6,7 +6,7 @@
 	</head>
 <body>
 <table id="content">
-	<tr><td>Hi, I'm Milo. Welcome to my website!<br/>Please enjoy my thoughts, opinions, and creations.<br/>I hope you have a great time here.<br/><i>Thank you for visiting! <img id="cool" src="/images/cool.png" /></i></td></tr>
+	<tr><td>Hi, I'm Milo. Welcome to my website!<br/>Please enjoy it. I think it's pretty decent.<br/>But if you don't like it, that's okay too.<br/><i>Thank you for visiting! <img id="cool" src="/images/cool.png" /></i></td></tr>
 	<tr><td><img id="car" src="/images/car-still.png" /></td></tr>
 </table>
 <div id="counter">

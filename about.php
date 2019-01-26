@@ -18,7 +18,8 @@
 		<tr><td><img id="me" src="/images/me.png" /></td></tr>
 		<tr><td id="top">👆 That's me!</td></tr>
 		<tr><td>I like trees, big cats, and the Sun! I also like building things on the internet.<br/>
-				This website is a little slice of the Internet I grew up with. I hope you enjoy its old school vibes! It is proudly jQuery & framework free, non-responsive and "Not Secure"<br/><br/>
+				I don't like the tech industry or social media, but I hate Hulu most of all.
+				<br/>This website is proudly jQuery & framework free, non-responsive and "Not Secure"<br/><br/>
 				I am currently on the  
 				<?php
 			$text = "POSITIVITY TOUR";

@@ -60,7 +60,7 @@ body {
 #enter {
     font-size: 30px;
     font-size: 2vw;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
     text-decoration: none;
     text-align: center;
     color: black;
