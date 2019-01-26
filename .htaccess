@@ -7,4 +7,4 @@ RewriteRule ^home$ /home.php
 RewriteRule ^about$ /about.php
 RewriteRule ^stuff$ /stuff.php
 RewriteRule ^contact$ /contact.php
-RewriteRule ^not-ready-yet$ /under_construction.php
+RewriteRule ^blogs-suck$ /blank.php
